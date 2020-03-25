@@ -1,0 +1,34 @@
+
+[reader]
+label                         = 09c4nline
+protocol                      = newcamd
+device                        = 127.0.0.1,xxxx
+key                           = 0102030405060708091011121314
+user                          = xx
+password                      = xx
+reconnecttimeout              = 1
+connectoninit                 = 1
+keepalive                     = 1
+caid                          = 09C4
+ident                         = 09C4:000000
+group                         = 1
+audisabled                    = 1
+
+
+[reader]
+label                         = cacheexmode2
+protocol                      = cs378x
+device                        = ipadress.ip.com,xxxx
+user                          = xxx
+password                      = xxx
+connectoninit                 = 1
+reconnecttimeout              = 5
+keepalive                     = 1
+disablecrccws_only_for        = 098C:000000;09C4:000000;0500:050F00;0500:043800;0500:030B00
+cacheex                       = 2
+cacheex_maxhop                = 3         #consigliato massimo fino a 3 
+cacheex_drop_csp              = 1        
+caid                          = 09c4,.....tutti i caid che vi servono
+group                         = 2
+audisabled                    = 1
+

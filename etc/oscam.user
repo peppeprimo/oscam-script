@@ -1,0 +1,16 @@
+[account]
+user                          = ccamuser
+pwd                           = ccampass
+keepalive                     = 1
+group                         = 1,2      
+cccreshare                    = 0    
+
+
+[account]
+user                          = user
+pwd                           = pass
+keepalive                     = 1
+group                         = 1,2      #nline e cacheex
+cacheex                       = 2
+cacheex_maxhop                = 3        #massimo 3 consigliato
+cacheex_drop_csp              = 1
